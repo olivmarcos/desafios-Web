@@ -7,7 +7,7 @@ body, html {
     height: 100%;
 }
 
-header {
+header, footer {
     background-color: #282E33;
     height: 15%;
     width: 100%;
@@ -37,10 +37,4 @@ aside {
     height: 65%;
     width: 30%;
     float: right;
-}
-
-footer {
-    background-color: #D6D8C9;
-    height: 15%;
-    width: 100%;
 }
