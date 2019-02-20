@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+}
+
+header {
+    background-color: #282E33;
+    height: 15%;
+    width: 100%;
+    color: white;
+}
+
+nav {
+    background-color: #D0B6A4;
+    height: 5%;
+    width: 100%;
+}
+
+section {
+    background-color: #D6D8C9;
+    height: 15%;
+    width: 70%;
+}
+
+article {
+    background-color: #EFF2E2;
+    height: 60%;
+    width: 70%;
+}
+
+aside {
+    background-color: #F19D94;
+    height: 75%;
+    width: 30%;
+    float: right;
+}
+
+footer {
+    background-color: #D6D8C9;
+    height: 5%;
+    width: 100%;
+}
