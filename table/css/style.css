@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: "Opens Sans", sans-serif;
+}
+/*HEADER*/
+header {
+  background-color: #0072d4;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  margin-bottom: 10px;
+}
+
+header img {
+  width: 200px;
+}
+/*TABELA*/
+.tabela {
+  border-collapse: collapse;
+  margin-left: 25rem;
+  margin-bottom: 5rem;
+}
+
+.left {
+  text-align: left;
+}
+
+th {
+  border: 2px solid black;
+  padding: 7px;
+}
+
+td {
+  padding: 0 1rem;
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+#subTituloDaTabelaMasNemTanto td {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.subtituloDaTabela {
+  background-color: gray;
+}
+
+.dadosDaTabela td {
+  background-color: whitesmoke;
+}
+
+.dadosDaTabela:nth-of-type(2n + 1) td {
+  background-color: gainsboro;
+}
+
+/*TABELA 2*/
+
+.tabela2 {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 25rem;
+  
+}
+.blueRow {
+  background-color: aquamarine;
+  text-align: center;
+}
+.center2 {
+  text-align: center;
+}
+
+.over {
+  overflow: auto;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  background-color: #4a4a4a;
+  padding: 20px 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin: 35rem;
+  margin-top: 10rem;
+}
+
+footer {
+  margin-top: 10rem;
+  background-color: #4a4a4a;
+  height: 80px;
+  width: 100%;
+  padding: 20px 50px;
+}

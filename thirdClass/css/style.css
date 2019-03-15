@@ -1,0 +1,40 @@
+body,
+html {
+  height: 100%;
+}
+
+header {
+  background-color: #393e46;
+  color: white;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding: 2%;
+  margin: 0%;
+  background-color: #00adb5;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: inline;
+  padding: 1% 2%;
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li:hover {
+    color: #393e46;
+    background-color: #8AC6BF;
+}
+
+/*vmin vmax vh vw*/
