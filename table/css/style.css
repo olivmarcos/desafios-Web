@@ -5,6 +5,14 @@
   box-sizing: border-box;
   font-family: "Opens Sans", sans-serif;
 }
+body{
+  min-height: 100vh;
+}
+
+main{
+  min-height: calc(100vh - 210px);
+}
+
 /*HEADER*/
 header {
   background-color: #0072d4;
@@ -67,10 +75,8 @@ td {
 
 .tabela2 {
   border-collapse: collapse;
-  width: 50%;
-  margin-left: 25rem;
-  
 }
+
 .blueRow {
   background-color: aquamarine;
   text-align: center;
@@ -81,7 +87,13 @@ td {
 
 .over {
   overflow: auto;
-  margin-bottom: 5rem;
+}
+
+.btnDiv{
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
@@ -90,12 +102,17 @@ td {
   border-radius: 5px;
   text-decoration: none;
   color: white;
-  margin: 35rem;
-  margin-top: 10rem;
 }
 
-footer {
-  margin-top: 10rem;
+#tabela1 .btnDiv{
+  margin-bottom: 1rem;
+}
+
+#tabela2 .btnDiv{
+  margin-top: 1rem;
+}
+
+footer{
   background-color: #4a4a4a;
   height: 80px;
   width: 100%;
