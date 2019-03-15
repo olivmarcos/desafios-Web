@@ -7,7 +7,8 @@
 }
 /*HEADER*/
 header {
-  background-color: #fff;
+  background-color: #0072d4;
+  height: 120px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -20,9 +21,14 @@ header img {
   width: 200px;
 }
 /*TABELA*/
-.tabela{
+.tabela {
   border-collapse: collapse;
-  margin-left: 10rem;
+  margin-left: 25rem;
+  margin-bottom: 5rem;
+}
+
+.left {
+  text-align: left;
 }
 
 th {
@@ -30,21 +36,21 @@ th {
   padding: 7px;
 }
 
-td{
+td {
   padding: 0 1rem;
+  text-align: right;
 }
 
 .left {
   text-align: left;
 }
-.right {
-  text-align: right;
-}
 
 #subTituloDaTabelaMasNemTanto td {
   background-color: black;
   color: white;
+  text-align: center;
 }
+
 .subtituloDaTabela {
   background-color: gray;
 }
@@ -55,4 +61,43 @@ td{
 
 .dadosDaTabela:nth-of-type(2n + 1) td {
   background-color: gainsboro;
+}
+
+/*TABELA 2*/
+
+.tabela2 {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 25rem;
+  
+}
+.blueRow {
+  background-color: aquamarine;
+  text-align: center;
+}
+.center2 {
+  text-align: center;
+}
+
+.over {
+  overflow: auto;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  background-color: #4a4a4a;
+  padding: 20px 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin: 35rem;
+  margin-top: 10rem;
+}
+
+footer {
+  margin-top: 10rem;
+  background-color: #4a4a4a;
+  height: 80px;
+  width: 100%;
+  padding: 20px 50px;
 }
