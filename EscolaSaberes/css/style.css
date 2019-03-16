@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+  background-color: #f19d94;
+  color: #eff2e2;
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  font-size: 2rem;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+}
+
+header li {
+  list-style: none;
+  padding: 0 25px;
+  color: #eff2e2;  
+}
+
+header li:first-child {
+    padding-left: 0;
+}
+
+header li:last-child {
+    padding-right: 0;
+}
+
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #eff2e2;
+}
+
+/* HERO */
+.hero {
+    background-image: url(../img/cultura-maker.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+}
+
