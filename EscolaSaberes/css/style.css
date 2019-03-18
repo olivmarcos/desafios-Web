@@ -6,19 +6,24 @@
 }
 
 /* HEADER */
+.logo {
+  font-size: 4rem; 
+  padding: 50px;
+}
 
 header {
   background-color: #f19d94;
   color: #eff2e2;
   display: flex;
-  padding: 50px;
   justify-content: space-between;
-  font-size: 2rem;
+  position: absolute;
   width: 100%;
 }
 
 header nav {
   display: flex;
+  font-size: 2rem;
+  padding-top: 70px;
 }
 
 header li {
@@ -31,12 +36,6 @@ header li:first-child {
     padding-left: 0;
 }
 
-header li:last-child {
-    padding-right: 0;
-}
-
-
-
 a {
     text-decoration: none;
     cursor: pointer;
@@ -45,7 +44,7 @@ a {
 
 /* HERO */
 .hero {
-    background-image: url(../img/cultura-maker.jpg);
+    background-image: url(../img/robotica-getty-images.jpg);
     background-size: cover;
     min-height: 100vh;
     color: #fff;
