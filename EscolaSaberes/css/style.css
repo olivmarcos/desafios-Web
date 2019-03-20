@@ -10,24 +10,23 @@ body {
   font-family: 'ZCOOL XiaoWei', serif;
 }
 /* HEADER */
-.logo {
-  font-size: 2.5rem;
-  margin: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 header {
   background-color: #f19d94;
   color: #eff2e2;
   display: flex;
   justify-content: space-between;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   align-items: center;
   padding: 0px 50px;
+}
 
+.logo {
+  font-size: 2.5rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav {
@@ -125,7 +124,6 @@ a:hover {
 }
 
 /*VIDEO*/
-
 .video {
   position: relative;
   width: 100%;
@@ -142,7 +140,6 @@ a:hover {
 }
 
 /*FOOTER*/
-
 footer {
   background-color: #282e33;
   width: 100%;
@@ -165,8 +162,8 @@ footer ul li a {
   color: #eff2e2;
   font-size: 2rem;
 }
-/*MEDIA QUERY*/
 
+/*MEDIA QUERY*/
 @media (max-width: 640px) {
   header {
     flex-direction: column;
