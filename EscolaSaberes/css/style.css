@@ -51,7 +51,7 @@ header li:first-child {
 }
 
 header li:last-child {
-  margin-left: 0;
+  margin-right: 0;
 }
 
 nav a:hover {
@@ -173,7 +173,7 @@ footer ul li a {
     font-size: 2rem;
   }
   header nav {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,16 +185,14 @@ footer ul li a {
   }
 }
 
-@media (max-width: 460px) {
-  header {
-    flex-direction: column;
-  }
+@media (max-width: 375px) {
 
   .logo {
-    font-size: 1rem;
-  }
+   font-size: 1.5rem;
+  } 
+
   header nav {
-    font-size: 1rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
