@@ -62,7 +62,7 @@ a:hover {
   opacity: 1;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 640px) {
   header {
     flex-direction: column;
   }
