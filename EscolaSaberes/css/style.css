@@ -6,34 +6,35 @@
 }
 
 body {
-  background-color:#eff2e2;;
+  background-color: #eff2e2;
 }
 /* HEADER */
 .logo {
-  font-size: 2rem; 
+  font-size: 2.5rem;
   margin: 2rem;
-  max-width: 200px;
-  /*display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
 }
 
 header {
   background-color: #f19d94;
   color: #eff2e2;
   display: flex;
-  /* justify-content: space-between;*/
+  justify-content: space-between;
   position: absolute;
   width: 100vw;
+  align-items: center;
+  padding: 0px 50px;
+
 }
 
 header nav {
-  max-width: calc(100vw - 250px);
   display: flex;
   font-size: 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  list-style: none;
 }
 
 header nav a:hover {
@@ -41,13 +42,16 @@ header nav a:hover {
 }
 
 header li {
-  list-style: none;
-  /*padding: 0 25px;*/
-  color: #eff2e2;  
+  color: #eff2e2;
+  margin: 0 15px;
 }
 
 header li:first-child {
-    padding-left: 0;
+  margin-left: 0;
+}
+
+header li:last-child {
+  margin-left: 0;
 }
 
 nav a:hover {
@@ -55,41 +59,28 @@ nav a:hover {
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
-    color: #eff2e2;
-    opacity: 0.9;
+  text-decoration: none;
+  cursor: pointer;
+  color: #eff2e2;
+  opacity: 0.9;
 }
 
 a:hover {
   opacity: 1;
 }
 
-@media (max-width: 640px) {
-  header {
-    flex-direction: column;
-  }
-  header nav {
-    font-size: 1.5rem;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-}
-
 /* HERO */
 .hero {
-    background-image: url(../img/robotica-getty-images.jpg);
-    background-size: cover;
-    background-position: center center;
-    min-height: 100vh;
-    color: #eff2e2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+  background-image: url(../img/robotica-getty-images.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  color: #eff2e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .hero h1 {
@@ -152,12 +143,12 @@ a:hover {
 /*FOOTER*/
 
 footer {
-  background-color: #282E33;
+  background-color: #282e33;
   color: #eff2e2;
   width: 100%;
   height: 5rem;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 }
 
 footer h1 {
@@ -166,4 +157,40 @@ footer h1 {
   color: #eff2e2;
   display: flex;
   align-items: center;
+}
+
+/*MEDIA QUERY*/
+
+@media (max-width: 640px) {
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+  header nav {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+  header nav {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
 }
