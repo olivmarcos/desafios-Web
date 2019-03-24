@@ -7,7 +7,7 @@
 
 body {
   background-color: #eff2e2;
-  font-family: 'ZCOOL XiaoWei', serif;
+  font-family: "ZCOOL XiaoWei", serif;
 }
 /* HEADER */
 header {
@@ -38,7 +38,7 @@ header nav {
 }
 
 header nav a:hover {
-  background-color: #ff8984;
+  color: #282e33;
 }
 
 header li {
@@ -51,7 +51,7 @@ header li:first-child {
 }
 
 header li:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 nav a:hover {
@@ -138,7 +138,57 @@ a:hover {
   height: 100%;
   border: none;
 }
+/*Formulario*/
 
+#teste {
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+}
+#titulo {
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+form {
+  box-shadow: 5px 5px 5px 5px gray;
+  background-color: #f19d94;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  width: 70%;
+}
+
+form h1, label {
+  color: #282e33;
+}
+form input {
+  display: block;
+  height: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 0.3rem;
+
+}
+
+form textarea {
+  margin-top: 0.3rem;
+  height: 5rem;
+  width: 15rem;
+  resize: none;
+  display: block;
+}
+
+form button {
+  color: #282e33;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 1rem;
+}
 /*FOOTER*/
 footer {
   background-color: #282e33;
@@ -173,7 +223,7 @@ footer ul li a {
     font-size: 2rem;
   }
   header nav {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,17 +235,20 @@ footer ul li a {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 460px) {
+  header {
+    flex-direction: column;
+  }
 
   .logo {
-   font-size: 1.5rem;
-  } 
-
+    font-size: 1rem;
+  }
   header nav {
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
   }
 }
+

@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #eff2e2;
+    font-family: 'ZCOOL XiaoWei', serif;
+  }
+
+  .form {
+      display: flex;
+      justify-content: center;
+  }
