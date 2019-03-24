@@ -6,48 +6,52 @@
 }
 
 body {
-  background-color:#eff2e2;;
+  background-color: #eff2e2;
+  font-family: "ZCOOL XiaoWei", serif;
 }
 /* HEADER */
-.logo {
-  font-size: 2rem; 
-  margin: 2rem;
-  max-width: 200px;
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
-}
-
 header {
   background-color: #f19d94;
   color: #eff2e2;
   display: flex;
-  /* justify-content: space-between;*/
+  justify-content: space-between;
   position: absolute;
-  width: 100vw;
+  width: 100%;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.logo {
+  font-size: 2.5rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav {
-  max-width: calc(100vw - 250px);
   display: flex;
   font-size: 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  list-style: none;
 }
 
 header nav a:hover {
-  background-color: #ff8984;
+  color: #282e33;
 }
 
 header li {
-  list-style: none;
-  /*padding: 0 25px;*/
-  color: #eff2e2;  
+  color: #eff2e2;
+  margin: 0 15px;
 }
 
 header li:first-child {
-    padding-left: 0;
+  margin-left: 0;
+}
+
+header li:last-child {
+  margin-left: 0;
 }
 
 nav a:hover {
@@ -55,41 +59,28 @@ nav a:hover {
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
-    color: #eff2e2;
-    opacity: 0.9;
+  text-decoration: none;
+  cursor: pointer;
+  color: #eff2e2;
+  opacity: 0.9;
 }
 
 a:hover {
   opacity: 1;
 }
 
-@media (max-width: 640px) {
-  header {
-    flex-direction: column;
-  }
-  header nav {
-    font-size: 1.5rem;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-}
-
 /* HERO */
 .hero {
-    background-image: url(../img/robotica-getty-images.jpg);
-    background-size: cover;
-    background-position: center center;
-    min-height: 100vh;
-    color: #eff2e2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+  background-image: url(../img/robotica-getty-images.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  color: #eff2e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .hero h1 {
@@ -133,7 +124,6 @@ a:hover {
 }
 
 /*VIDEO*/
-
 .video {
   position: relative;
   width: 100%;
@@ -148,22 +138,81 @@ a:hover {
   height: 100%;
   border: none;
 }
+/*Formulario*/
 
+#teste {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+form {
+  box-shadow: 5px 5px 5px 5px gray;
+  background-color: #f19d94;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 70%;
+}
 /*FOOTER*/
-
 footer {
-  background-color: #282E33;
-  color: #eff2e2;
+  background-color: #282e33;
   width: 100%;
   height: 5rem;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 }
 
-footer h1 {
-  padding: 10px;
-  font-size: 2rem;
-  color: #eff2e2;
+footer ul {
+  list-style: none;
   display: flex;
   align-items: center;
+}
+
+footer ul li {
+  margin: 10px;
+}
+
+footer ul li a {
+  color: #eff2e2;
+  font-size: 2rem;
+}
+
+/*MEDIA QUERY*/
+@media (max-width: 640px) {
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+  header nav {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  footer ul li a {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 460px) {
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+  header nav {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
 }
