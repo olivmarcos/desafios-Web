@@ -234,9 +234,6 @@ footer ul li a {
     font-size: 1.5rem;
   }
 
-  #teste {
-    min-height: 50vh;
-  }
 }
 
 @media (max-width: 460px) {
@@ -253,6 +250,13 @@ footer ul li a {
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
+  }
+
+  #titulo {
+    font-size: 1.5rem;
+  }
+  #teste {
+    min-height: 50vh;
   }
 }
 
