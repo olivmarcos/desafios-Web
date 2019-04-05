@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*HEADER*/
+header {
+  background-color: #fe4a16;
+  height: 10vh;
+  padding: 0 1rem;
+  color: white;
+  width: 100%;
+}
+
+.lado {
+  display: flex;
+}
+
+.lado h1 {
+  padding: 0 0.2rem;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.procure {
+  display: flex;
+  flex-direction: column;
+}
+
+.procure h3 {
+  background-color: antiquewhite;
+}
+
+/*NAV*/
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  padding-top: 0.5rem;
+}
+
+.destaque img {
+    margin-top: 0.5rem;
+    width: 412px;
+    display: flex;
+    flex-direction: column;
+}
+
