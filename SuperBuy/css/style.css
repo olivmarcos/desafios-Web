@@ -184,3 +184,20 @@ footer ul a li {
   padding: .5rem;
   font-size: 1.5rem;
 }
+
+@media (min-width: 361px) and (max-width: 415px) {
+  .important img {
+    width: 25.9rem;
+    height: 3rem;
+  }
+  .destaque img {
+  width: 25.9rem;
+  height: 18rem;
+}
+.produtos {
+  width: 12.9rem;
+}
+input {
+  width: 22rem;
+}
+}
