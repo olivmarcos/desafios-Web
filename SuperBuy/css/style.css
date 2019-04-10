@@ -6,13 +6,13 @@
 /*HEADER*/
 header {
   background-color: #FE4A16;
-  height: 6.6rem;
+  height: 6rem;
   flex-direction: column;
 }
 .principal {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 1.5rem;
+  padding: .5rem .5rem;
 }
 
 .menu-logo {
@@ -33,9 +33,9 @@ div img {
 }
 .icons li {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   list-style: none;
-  padding: 0 0.3rem;
+  padding: 0 .5rem;
 }
 
 #search {
@@ -44,13 +44,13 @@ div img {
 }
 
 input {
-  min-width: 21rem;
-  height: 2rem;
+  width: 18rem;
+  height: 2.5rem;
 }
 
 .button {
   font-size: 1.2rem;
-  width: 2rem;
+  width: 3rem;
   color: white;
   background-color: #FE4A16;
   border: none;
@@ -76,13 +76,13 @@ menu a li {
 
 /*SEÇÕES*/
 .important img {
-  width: 411px;
-  height: 49px;
+  width: 22.5rem;
+  height: 3rem;
 }
 
 .destaque img {
-   width: 411px;
-   height: 280px;
+   width: 22.5rem;
+   height: 18rem;
 }
 
 .prd {
@@ -91,18 +91,18 @@ menu a li {
   
 }
 .produtos {
-  width: 12.8rem;
-  height: 312px;
+  width: 11.2rem;
+  height: 19.5rem;
   padding: 0 0.5rem;
   text-align: initial;
-  font-size: 14px;
+  font-size: 0.7em;
   color: rgb(102, 102, 102);
   border: 1px solid #e5e5e5;
   margin: 0 1px 0px -1px;
   
 }
 .produtos-img img {
-    width: 170px;
+    width: 10rem;
 }
 
 a {
@@ -110,7 +110,7 @@ a {
 }
 
  h1 {
-  font-size: 18px;
+  font-size: 1em;
   color: rgb(102, 102, 102);
 }
 
@@ -156,4 +156,31 @@ form {
   flex-direction: column;
   align-items: center;
   width: 22.5rem;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #403E3F;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+footer ul a {
+  color: white;
+}
+
+footer ul a li {
+  padding: .5rem;
+  font-size: 1.5rem;
 }

@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+#important img {
+    width: 22.5rem;
+    height: 4.5rem;
+  }
+
+h1 {
+    color: rgb(102, 102, 102);
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.produto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.produto-container div h1 {
+    padding: 0 1rem;
+}
+.img-produto img {
+    width: 17rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    border: 1px solid #e5e5e5;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 5px;
+    padding: 1.5rem;
+    width: 21rem;
+    margin-bottom: 2rem;
+}
+
+.price h4 {
+    font-size: 0.8em;
+    color: rgb(102, 102, 102);
+}
+
+.price h1 {
+    font-size: 1.5em;
+    color: rgb(102, 102, 102);
+}
+
+.price p {
+    margin-top: 1.5rem;
+    color: rgb(102, 102, 102);
+    font-size: .8em;
+}
+.buy {
+    background-color: rgb(64, 205, 40);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 5px;
+    cursor: pointer;
+    width: 12rem;
+    height: 3rem;
+    color: white;
+    margin-top: 1rem;
+    outline: none;
+}
