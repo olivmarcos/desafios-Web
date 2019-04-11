@@ -44,7 +44,7 @@ div img {
 }
 
 input {
-  width: 23rem;
+  width: 85%;
   height: 2.5rem;
 }
 
@@ -206,14 +206,10 @@ footer ul a li {
   }
  }
  /* Telefone em landscape a tablet em portrait */
- @media (min-width: 460px) {
-    input {
-      width: 85%;
-    }
- }
+
 @media (min-width: 767px) {
   input {
-    width: 95%;
+    width: 90%;
   }
   .important img {
     width: auto;
@@ -225,17 +221,7 @@ footer ul a li {
      height: 22rem;
   }
  }
-/* tablet em portrait a landscape e desktop */
-@media (min-width: 768px) and (max-width: 979px) { 
-  .important img {
-    width: auto;
-    height: 5rem; 
-  }
-  
-  .destaque img {
-     width: auto;
-     height: 20rem;
-  }
+
   
  }
 /* Desktop grande */
