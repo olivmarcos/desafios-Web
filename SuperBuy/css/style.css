@@ -185,64 +185,59 @@ footer ul a li {
   font-size: 1.5rem;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 361px) {
   .important img {
-    width: 100%;
+    width: auto;
   }
   
   .destaque img {
-     width: 100%;
-  }
- }
- /* Telefone em landscape a tablet em portrait */
-@media (max-width: 767px) {
-  .important img {
-    width: 100%;
-    height: 5rem; 
-  }
-  
-  .destaque img {
-     width: 100%;
-     height: 20rem;
+     width: auto;
   }
   #center {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .prd {
+    display: flex;
+    justify-content: center;
+  }
+ }
+ /* Telefone em landscape a tablet em portrait */
+@media (min-width: 767px) {
+  .important img {
+    width: auto;
+    height: 5rem; 
+  }
+  
+  .destaque img {
+     width: auto;
+     height: 20rem;
   }
  }
 /* tablet em portrait a landscape e desktop */
 @media (min-width: 768px) and (max-width: 979px) { 
   .important img {
-    width: 100%;
+    width: auto;
     height: 5rem; 
   }
   
   .destaque img {
-     width: 100%;
+     width: auto;
      height: 20rem;
   }
-  #center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  
  }
 /* Desktop grande */
 @media (min-width: 980px) { 
   .important img {
-    width: 100%;
+    width: auto;
     height: 5rem; 
   }
   
   .destaque img {
      width: 100%;
-     height: 20rem;
+     height: 23rem;
   }
 
-  #center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
  }
